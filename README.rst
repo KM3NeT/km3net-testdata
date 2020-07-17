@@ -27,6 +27,14 @@ The file paths can be access in Python scripts using the ``data_path()`` functio
 
     filename = data_path("km3net_offline.root")
 
+To use the module in e.g. shell scripts, the module can be called directly and
+print the filepath:
+
+.. code-block:: shell
+
+   $ python -m km3net_testdata km3net_offline.root
+   /full/path/to/km3net_offline.root
+
 
 Acknowledgements
 ----------------
