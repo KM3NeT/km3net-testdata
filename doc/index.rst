@@ -11,7 +11,7 @@
    autoapi/index
 
    Code Coverage <http://km3py.pages.km3net.de/km3net_testdata/coverage>
-   Source (Git) <https://git.km3net.de/km3py/km3net_testdata.git>
+   Source (Git) <https://git.km3net.de/km3py/km3net_testdata>
 
 
 

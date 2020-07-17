@@ -22,7 +22,7 @@ except UnicodeDecodeError:
 
 setup(
     name='km3net_testdata',
-    url='https://git.km3net.de/km3py/km3net_testdata.git',
+    url='https://git.km3net.de/km3py/km3net_testdata',
     description='KM3NeT TestData',
     long_description=long_description,
     author='Tamas Gal',
