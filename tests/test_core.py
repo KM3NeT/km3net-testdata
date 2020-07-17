@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 import unittest
 
-from km3net_testdata import testdata
+from km3net_testdata import data_path
 
 
-class TestTestData(unittest.TestCase):
+class TestDataPath(unittest.TestCase):
     def test_access(self):
         assert True
