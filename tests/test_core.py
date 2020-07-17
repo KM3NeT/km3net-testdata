@@ -7,4 +7,4 @@ from km3net_testdata import data_path
 
 class TestDataPath(unittest.TestCase):
     def test_access(self):
-        assert True
+        assert data_path("km3net_offline.root").endswith("km3net_offline.root")
