@@ -23,6 +23,9 @@ except ImportError:
     from contextlib2 import ExitStack
 
 import atexit
+LATEST_VERSIONS = {
+    "detx": "detx/detx_v3.detx",
+}
 
 
 def data_path(filename, raise_missing=True):
@@ -34,6 +37,12 @@ def data_path(filename, raise_missing=True):
     if raise_missing and not file_path.exists():
         raise RuntimeError("Unknown or missing file: {0}".format(filename))
     return str(file_path)
+
+
+def latest(dataformat, raise_missing=True):
+    """Return the path to the latest version of the given dataformat"""
+    filename = LATEST_VERSIONS.get(dataformat, "latest." + dataformat)
+    return data_path(filename, raise_missing=raise_missing)
 
 
 __all__ = ["data_path"]
