@@ -11,7 +11,7 @@ import sys
 def read_stripped_lines(filename):
     """Return a list of stripped lines from a file"""
     with open(filename) as fobj:
-        return [l.strip() for l in fobj.readlines()]
+        return [line.strip() for line in fobj.readlines()]
 
 
 try:
