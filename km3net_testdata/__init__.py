@@ -1,16 +1,9 @@
 from __future__ import absolute_import
 
-import os
+import atexit
 from pkg_resources import get_distribution, DistributionNotFound
 
 import importlib_resources
-
-try:
-    version = get_distribution(__name__).version
-except DistributionNotFound:
-    version = "unknown version"
-__version__ = version
-
 
 try:
     from importlib_resources import as_file
@@ -22,7 +15,14 @@ try:
 except ImportError:
     from contextlib2 import ExitStack
 
-import atexit
+
+try:
+    version = get_distribution(__name__).version
+except DistributionNotFound:
+    version = "unknown version"
+__version__ = version
+
+
 LATEST_VERSIONS = {
     "detx": "detx/detx_v3.detx",
 }
