@@ -15,13 +15,11 @@ try:
 except ImportError:
     from contextlib2 import ExitStack
 
-
 try:
     version = get_distribution(__name__).version
 except DistributionNotFound:
     version = "unknown version"
 __version__ = version
-
 
 LATEST_VERSIONS = {
     "detx": "detx/detx_v3.detx",

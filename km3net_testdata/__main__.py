@@ -8,7 +8,6 @@ from __future__ import print_function
 import argparse
 from . import data_path
 
-
 if __name__ == "__main__":
     description = "Expand a testing dataset path to a full path."
     parser = argparse.ArgumentParser(prog="km3net_testdata")
