@@ -17,7 +17,7 @@ purposes.
 Installation and usage
 ----------------------
 
-    pip install km3net_testdata
+    pip install km3net-testdata
 
 The file paths can be access in Python scripts using the ``data_path()`` function:
 
@@ -26,6 +26,9 @@ The file paths can be access in Python scripts using the ``data_path()`` functio
     from km3net_testdata import data_path()
 
     filename = data_path("km3net_offline.root")
+
+Notice the underscore in the Python package name (PyPI forces ``-`` but Python
+package names are not allowed to use ``-``).
 
 To use the module in e.g. shell scripts, the module can be called directly and
 print the filepath:
