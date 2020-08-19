@@ -11,5 +11,5 @@ from km3net_testdata import data_path
 # ------------------
 # To get the filename of a sample file:
 
-filename = data_path("km3net_online.root")
+filename = data_path("online/km3net_online.root")
 print(filename)
