@@ -35,8 +35,8 @@ print the filepath:
 
 .. code-block:: shell
 
-   $ python -m km3net_testdata km3net_offline.root
-   /full/path/to/km3net_offline.root
+   $ python -m km3net_testdata offline/km3net_offline.root
+   /full/path/to/offline/km3net_offline.root
 
 
 Acknowledgements
