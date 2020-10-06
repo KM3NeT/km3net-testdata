@@ -5,6 +5,9 @@ Unreleased changes
 
 Version 0
 ---------
+0.2.10 / 2020-10-06
+~~~~~~~~~~~~~~~~~~~
+* Added a sample file for mixed reco types
 
 0.2.6 / 2020-09-22
 ~~~~~~~~~~~~~~~~~~
