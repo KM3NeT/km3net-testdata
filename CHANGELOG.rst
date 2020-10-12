@@ -5,6 +5,11 @@ Unreleased changes
 
 Version 0
 ---------
+0.2.11 / 2020-10-12
+~~~~~~~~~~~~~~~~~~~
+* gibuu files added in ``gibuu/``
+* corant files added in ``evt/``
+
 0.2.10 / 2020-10-06
 ~~~~~~~~~~~~~~~~~~~
 * Added a sample file for mixed reco types
