@@ -5,6 +5,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.2.13 / 2020-10-15
+~~~~~~~~~~~~~~~~~~~
+* More HDF5 test samples (also from ANTARES)
+
 0.2.12 / 2020-10-15
 ~~~~~~~~~~~~~~~~~~~
 * detx for ``offline/km3net_offline.root`` added in ``detx/km3net_offline.detx``
