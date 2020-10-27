@@ -5,6 +5,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.2.14 / 2020-10-27
+~~~~~~~~~~~~~~~~~~~
+* Fix mixed up galactic coordinates in ANTARES coordinate benchmark
+
 0.2.13 / 2020-10-15
 ~~~~~~~~~~~~~~~~~~~
 * More HDF5 test samples (also from ANTARES)
