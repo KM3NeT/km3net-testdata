@@ -38,6 +38,16 @@ print the filepath:
    $ python -m km3net_testdata offline/km3net_offline.root
    /full/path/to/offline/km3net_offline.root
 
+It can be combined with other shell tools, as usual:
+
+.. code-block:: shell
+
+  $ head -n 5 $(python -m km3net_testdata detx/detx_v3.detx)
+  # a comment line
+  # another comment line starting with '#'
+  23 v3
+  1500000000.1 9999999999.0
+  UTM WGS84 32N 256500.0 4743000.0 -2425.0
 
 Acknowledgements
 ----------------
