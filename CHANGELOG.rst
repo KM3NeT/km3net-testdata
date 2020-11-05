@@ -5,6 +5,14 @@ Unreleased changes
 
 Version 0
 ---------
+0.2.16 / 2020-11-06
+~~~~~~~~~~~~~~~~~~~
+* Update samples for the new Jpp v13 DAQ files (more blobs)
+
+0.2.15 / 2020-11-06
+~~~~~~~~~~~~~~~~~~~
+* Add samples for the new Jpp v13 DAQ files
+
 0.2.14 / 2020-10-27
 ~~~~~~~~~~~~~~~~~~~
 * Fix mixed up galactic coordinates in ANTARES coordinate benchmark
