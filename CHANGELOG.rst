@@ -5,6 +5,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.2.17 / 2020-11-06
+~~~~~~~~~~~~~~~~~~~
+* Removed wrong DAQ samples
+
 0.2.16 / 2020-11-06
 ~~~~~~~~~~~~~~~~~~~
 * Update samples for the new Jpp v13 DAQ files (more blobs)
