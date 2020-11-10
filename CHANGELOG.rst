@@ -5,6 +5,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.2.19 / 2020-11-10
+~~~~~~~~~~~~~~~~~~~
+* Added L1 timeslice dump of data type 1003 to DAQ
+
 0.2.18 / 2020-11-06
 ~~~~~~~~~~~~~~~~~~~
 * Cleaned up DAQ sample files: old files have been suffixed with _legacy
