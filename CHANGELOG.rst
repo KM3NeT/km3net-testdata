@@ -5,6 +5,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.2.20 / 2020-12-03
+~~~~~~~~~~~~~~~~~~~
+* DETX v4 added
+
 0.2.19 / 2020-11-10
 ~~~~~~~~~~~~~~~~~~~
 * Added L1 timeslice dump of data type 1003 to DAQ
