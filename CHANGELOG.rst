@@ -2,9 +2,13 @@ Unreleased changes
 ------------------
 
 
-
 Version 0
 ---------
+0.2.21 / 2020-02-01
+~~~~~~~~~~~~~~~~~~~
+* New MUPAGE samples added
+* gSeaGen v7 samples added
+
 0.2.20 / 2020-12-03
 ~~~~~~~~~~~~~~~~~~~
 * DETX v4 added
