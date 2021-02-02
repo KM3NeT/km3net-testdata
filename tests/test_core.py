@@ -8,7 +8,8 @@ from km3net_testdata import data_path, latest, LATEST_VERSIONS
 
 class TestDataPath(unittest.TestCase):
     def test_access(self):
-        assert data_path("online/km3net_online.root").endswith("km3net_online.root")
+        assert data_path("online/km3net_online.root").endswith(
+            "km3net_online.root")
 
     def test_accessing_nonexistent_files(self):
         with self.assertRaises(RuntimeError):
