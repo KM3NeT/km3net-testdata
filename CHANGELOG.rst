@@ -2,9 +2,12 @@ Unreleased changes
 ------------------
 
 
-
 Version 0
 ---------
+
+0.2.23 / 2020-02-02
+~~~~~~~~~~~~~~~~~~~
+* Added a new mupage ARCA sample to hdf5/
 
 0.2.22 / 2020-02-02
 ~~~~~~~~~~~~~~~~~~~
