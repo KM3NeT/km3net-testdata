@@ -1,11 +1,15 @@
 Unreleased changes
 ------------------
 
-* geamon samples added
 
 
 Version 0
 ---------
+
+0.2.22 / 2020-02-02
+~~~~~~~~~~~~~~~~~~~
+* geamon samples added
+
 0.2.21 / 2020-02-01
 ~~~~~~~~~~~~~~~~~~~
 * New MUPAGE samples added
