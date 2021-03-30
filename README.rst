@@ -23,7 +23,7 @@ The file paths can be access in Python scripts using the ``data_path()`` functio
 
 .. code-block:: python
 
-    from km3net_testdata import data_path()
+    from km3net_testdata import data_path
 
     filename = data_path("offline/km3net_offline.root")
 
