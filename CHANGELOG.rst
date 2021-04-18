@@ -1,6 +1,8 @@
 Unreleased changes
 ------------------
 
+* DST sample added
+
 
 Version 0
 ---------
