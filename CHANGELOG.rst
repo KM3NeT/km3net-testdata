@@ -1,21 +1,23 @@
 Unreleased changes
 ------------------
 
-* DST sample added
-
 
 Version 0
 ---------
 
-0.2.23 / 2020-02-02
+0.2.24 / 2021-04-18
+~~~~~~~~~~~~~~~~~~~
+* DST sample added
+
+0.2.23 / 2021-02-02
 ~~~~~~~~~~~~~~~~~~~
 * Added a new mupage ARCA sample to hdf5/
 
-0.2.22 / 2020-02-02
+0.2.22 / 2021-02-02
 ~~~~~~~~~~~~~~~~~~~
 * geamon samples added
 
-0.2.21 / 2020-02-01
+0.2.21 / 2021-02-01
 ~~~~~~~~~~~~~~~~~~~
 * New MUPAGE samples added
 * gSeaGen v7 samples added
