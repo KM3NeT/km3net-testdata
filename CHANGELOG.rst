@@ -5,6 +5,10 @@ Unreleased changes
 Version 0
 ---------
 
+0.2.25 / 2021-05-15
+~~~~~~~~~~~~~~~~~~~
+* gseagen v6.0 offline file added
+
 0.2.24 / 2021-04-18
 ~~~~~~~~~~~~~~~~~~~
 * DST sample added
