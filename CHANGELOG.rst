@@ -1,6 +1,10 @@
 Unreleased changes
 ------------------
 
+2021-05-27
+~~~~~~~~~~~~~~~~~~~
+* HV-tuning JSON-files added to km3net-testdata/data/db
+
 
 Version 0
 ---------
