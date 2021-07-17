@@ -5,6 +5,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.2.27 / 2021-07-17
+~~~~~~~~~~~~~~~~~~~
+* Newer version of DST sample added (`orca6...`)
+
 0.2.26 / 2021-06-30
 ~~~~~~~~~~~~~~~~~~~
 * HV-tuning JSON-files added to `db/`
