@@ -5,6 +5,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.2.28 / 2021-09-15
+~~~~~~~~~~~~~~~~~~~
+* added nueCC file for tests of Aashowerfit shower reconstruction
+
 0.2.27 / 2021-07-17
 ~~~~~~~~~~~~~~~~~~~
 * Newer version of DST sample added (`orca6...`)
