@@ -1,7 +1,6 @@
 Unreleased changes
 ------------------
-
-
+* Fix a typo in ANTARES astro coordinate benchmark (moon and sun file)
 
 Version 0
 ---------
