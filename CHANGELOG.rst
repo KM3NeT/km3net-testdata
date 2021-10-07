@@ -1,9 +1,12 @@
 Unreleased changes
 ------------------
-* Fix a typo in ANTARES astro coordinate benchmark (moon and sun file)
 
 Version 0
 ---------
+0.2.28 / 2021-10-07
+~~~~~~~~~~~~~~~~~~~
+* Fix a typo in ANTARES astro coordinate benchmark (moon and sun file)
+
 0.2.28 / 2021-09-15
 ~~~~~~~~~~~~~~~~~~~
 * added nueCC file for tests of Aashowerfit shower reconstruction
