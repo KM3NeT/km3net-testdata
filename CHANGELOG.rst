@@ -1,10 +1,13 @@
 Unreleased changes
 ------------------
-* Fix Error.Arguments field in HV-tuning JSON file for DB API v2
 
 Version 0
 ---------
-0.2.28 / 2021-10-07
+0.2.30 / 2022-01-14
+~~~~~~~~~~~~~~~~~~~
+* Fix Error.Arguments field in HV-tuning JSON file for DB API v2
+
+0.2.29 / 2021-10-07
 ~~~~~~~~~~~~~~~~~~~
 * Fix a typo in ANTARES astro coordinate benchmark (moon and sun file)
 
