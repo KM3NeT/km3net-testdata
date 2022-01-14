@@ -1,5 +1,6 @@
 Unreleased changes
 ------------------
+* Fix Error.Arguments field in HV-tuning JSON file for DB API v2
 
 Version 0
 ---------
