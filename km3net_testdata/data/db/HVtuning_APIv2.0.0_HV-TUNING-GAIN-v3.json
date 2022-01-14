@@ -7260,7 +7260,7 @@
   "Encoding": "NativeJSON",
   "End": "2021-05-20T18:13:50+0200",
   "Error": {
-    "Arguments": "null",
+    "Arguments": [],
     "Code": "OK",
     "Message": ""
   },
