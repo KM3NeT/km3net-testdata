@@ -5,6 +5,9 @@
 # units: [deg]
 # theta, phi: track in horiz. UTM
 # DEC/RA: source in equatorial coordinates
+#detector_file: km3net-testdata/km3net_testdata/data/detx/KM3NeT_-00000001_20171212.detx
+#detector_lon_lat_deg: 15.975165560550405 36.29153729272101
+#detector_UTM:  33 587600.0 4016800.0 -3450.0
 date,time,object,RA-J2000,DEC-J2000,azimuth,zenith,phi,theta
 2022-10-04,03:03:03,SIRIUS,06:45:08.9,-16:42:58,301.1141471659072,58.854054321963766,121.11414716590718,121.14594567803624
 2022-10-04,03:03:03,CANOPUS,06:23:57.1,-52:41:45,283.45569746432494,90.96020650791255,103.45569746432497,89.03979349208745
