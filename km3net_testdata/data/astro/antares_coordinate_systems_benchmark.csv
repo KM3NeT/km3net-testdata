@@ -8,10 +8,6 @@
 # zenith, azimuth: Source in horiz. UTM
 # DEC/RA: source in equatorial coos.
 # gal_lon, gal_lat: source in galactic coos.
-#Coordinates from http://antares-wiki.in2p3.fr/doku.php?id=astro_coordinatetransformation_howto&s[]=benchmark#benchmarks_for_coordinate_calculations
-#the depth 0 indicates that depth correction was not used https://docs.google.com/document/d/0B6l8SNtndcwaZzZHSFhfZWxsUEU/
-#detector_lon_lat_deg: 6.1657 42.79891666666666
-#detector_UTM:  32 268221.6 4742381.9 0
 date,time,phi,theta,azimuth,zenith,RA,DEC,RA-J2000,DEC-J2000,gal_lon,gal_lat
 2007-10-04,03:03:03,97.07,135.0,277.07,45.0,70.712,-1.835,70.613,-1.852,198.7,-29.298
 2007-10-04,03:03:03,23.46,11.97,203.46,168.03,260.271,-46.871,260.124,-46.868,342.248,-5.601
