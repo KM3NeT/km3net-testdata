@@ -1,6 +1,9 @@
 Unreleased changes
 ------------------
 
+* Added a bunch of astro benchmark files for ORCA and ARCA
+* Reordered the columns of the ANTARES astro benchmark files
+
 Version 0
 ---------
 0.2.30 / 2022-01-14
