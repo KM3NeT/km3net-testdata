@@ -1,11 +1,14 @@
 Unreleased changes
 ------------------
 
-* Added a bunch of astro benchmark files for ORCA and ARCA
-* Reordered the columns of the ANTARES astro benchmark files
 
 Version 0
 ---------
+0.3.0 / 2022-03-11
+~~~~~~~~~~~~~~~~~~
+* Added a bunch of astro benchmark files for ORCA and ARCA
+* Reordered the columns of the ANTARES astro benchmark files
+
 0.2.30 / 2022-01-14
 ~~~~~~~~~~~~~~~~~~~
 * Fix Error.Arguments field in HV-tuning JSON file for DB API v2
