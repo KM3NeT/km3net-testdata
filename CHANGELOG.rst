@@ -1,10 +1,13 @@
 Unreleased changes
 ------------------
 
-* Added DETX v5
 
 Version 0
 ---------
+0.3.1 / 2022-03-23
+~~~~~~~~~~~~~~~~~~
+* Added DETX v5
+
 0.3.0 / 2022-03-11
 ~~~~~~~~~~~~~~~~~~
 * Added a bunch of astro benchmark files for ORCA and ARCA
