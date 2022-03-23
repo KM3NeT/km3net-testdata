@@ -1,6 +1,7 @@
 Unreleased changes
 ------------------
 
+* Added DETX v5
 
 Version 0
 ---------
