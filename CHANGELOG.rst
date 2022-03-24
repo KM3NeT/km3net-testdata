@@ -4,6 +4,11 @@ Unreleased changes
 
 Version 0
 ---------
+0.3.3 / 2022-03-24
+~~~~~~~~~~~~~~~~~~
+* Replaces the gSeaGen file from 0.3.2 which did not
+  contain the counter values
+
 0.3.2 / 2022-03-24
 ~~~~~~~~~~~~~~~~~~
 * Added a gSeaGen file with counter values on MC tracks
