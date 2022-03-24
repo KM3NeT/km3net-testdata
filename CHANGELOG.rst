@@ -4,6 +4,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.3.2 / 2022-03-24
+~~~~~~~~~~~~~~~~~~
+* Added a gSeaGen file with counter values on MC tracks
+
 0.3.1 / 2022-03-23
 ~~~~~~~~~~~~~~~~~~
 * Added DETX v5
