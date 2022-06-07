@@ -4,6 +4,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.3.4 / 2022-06-07
+~~~~~~~~~~~~~~~~~~
+* Corsika test files added
+
 0.3.3 / 2022-03-24
 ~~~~~~~~~~~~~~~~~~
 * Replaces the gSeaGen file from 0.3.2 which did not
