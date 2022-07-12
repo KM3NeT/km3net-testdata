@@ -4,6 +4,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.3.5 / 2022-07-12
+~~~~~~~~~~~~~~~~~~
+* v5.0 ORCA 115-string offline file added, triggered and reconstructed with Jpp v16, containing a sub-selection of 10 reconstructed events.
+
 0.3.4 / 2022-06-07
 ~~~~~~~~~~~~~~~~~~
 * Corsika test files added
