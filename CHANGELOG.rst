@@ -1,6 +1,7 @@
 Unreleased changes
 ------------------
 
+* Added multiHead.root to offline example files.
 
 Version 0
 ---------
