@@ -1,10 +1,12 @@
 Unreleased changes
 ------------------
 
-* Added multiHead.root to offline example files.
-
 Version 0
 ---------
+0.3.7 / 2022-09-20
+~~~~~~~~~~~~~~~~~~
+* Added multiHead.root to offline example files.
+
 0.3.6 / 2022-07-14
 ~~~~~~~~~~~~~~~~~~
 * Fixes (replaces) the v5.0 ORCA 115-string offline file from 0.3.5
