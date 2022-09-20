@@ -1,6 +1,8 @@
 Unreleased changes
 ------------------
 
+* Added samplefile for a UUID header
+
 Version 0
 ---------
 0.3.7 / 2022-09-20
