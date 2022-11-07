@@ -47,4 +47,4 @@ black-check:
 		black --check doc/conf.py
 		black --check setup.py
 
-.PHONY: all clean install install-dev venv test test-cov test-loop dependencies dependencies-dev yapf
+.PHONY: all clean install install-dev venv test test-cov test-loop dependencies dependencies-dev
