@@ -3,6 +3,12 @@ Unreleased changes
 
 Version 0
 ---------
+0.4.0 / 2022-11-07
+~~~~~~~~~~~~~~~~~~
+* Ditch yapf in favour of black for code style
+* Added empty offline ROOT file: ``offline/empty_events.root``
+* Removed Python 2.7 support
+
 0.3.7 / 2022-09-20
 ~~~~~~~~~~~~~~~~~~
 * Added multiHead.root to offline example files.
