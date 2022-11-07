@@ -33,9 +33,18 @@ dependencies:
 dependencies-dev:
 	pip install -Ur requirements-dev.txt
 
-yapf:
-	yapf -i -r $(PKGNAME)
-	yapf -i -r tests
-	yapf -i setup.py
+.PHONY: black
+black:
+		black --exclude '/_definitions/|version.py' $(PKGNAME)
+		black tests
+		black doc/conf.py
+		black setup.py
 
-.PHONY: all clean install install-dev venv test test-cov test-loop dependencies dependencies-dev yapf
+.PHONY: black-check
+black-check:
+		black --exclude '/_definitions/|version.py' $(PKGNAME)
+		black --check tests
+		black --check doc/conf.py
+		black --check setup.py
+
+.PHONY: all clean install install-dev venv test test-cov test-loop dependencies dependencies-dev
