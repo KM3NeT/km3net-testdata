@@ -1,10 +1,9 @@
 """
 This file will be invoked by python when called with th `-m` options:
 ```
-python -m skhep_testdata cms_hep_2012_tutorial/data.root
+python -m km3net_testdata offline/km3net_offline.root
 ```
 """
-from __future__ import print_function
 import argparse
 from . import data_path
 
