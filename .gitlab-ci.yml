@@ -122,3 +122,4 @@ pypi:
         - twine upload dist/*
     only:
         - tags
+        - master
