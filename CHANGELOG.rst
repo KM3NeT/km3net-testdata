@@ -3,7 +3,7 @@ Unreleased changes
 
 Version 0
 ---------
-0.4.2 / 2023-01-24
+0.4.3 / 2023-01-24
 ~~~~~~~~~~~~~~~~~~
 * DST sample (mainly for ``km3irf``) has been added
 * Python 3.9 and 3.10 added to the CI test stage
