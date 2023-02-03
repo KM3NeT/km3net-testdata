@@ -79,6 +79,12 @@ test-py3.10:
         - make test
     <<: *junit_definition
 
+test-julia-1.6:
+    image: docker.km3net.de/base/julia:1.6
+    stage: test
+    script:
+        - julia -e 'import Pkg; Pkg.add(".")'
+
 code-style:
     image: docker.km3net.de/base/python:3.7
     stage: test
