@@ -83,7 +83,7 @@ test-julia-1.6:
     image: docker.km3net.de/base/julia:1.6
     stage: test
     script:
-        - julia -e 'import Pkg; Pkg.develop(".")'
+        - julia -e 'import Pkg; Pkg.develop(path=".")'
 
 code-style:
     image: docker.km3net.de/base/python:3.7
