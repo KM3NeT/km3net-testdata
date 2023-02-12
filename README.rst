@@ -11,11 +11,14 @@ KM3NeT TestData
     :target: https://km3py.pages.km3net.de/km3net-testdata
 
 
-A package to get access to KM3NeT sample files for testing and development
+A hybrid Python/Julia package to get access to KM3NeT sample files for testing and development
 purposes.
 
 Installation and usage
 ----------------------
+
+Python
+``````
 
     pip install km3net-testdata
 
@@ -30,7 +33,30 @@ The file paths can be access in Python scripts using the ``data_path()`` functio
 Notice the underscore in the Python package name (PyPI forces ``-`` but Python
 package names are not allowed to use ``-``).
 
-To use the module in e.g. shell scripts, the module can be called directly and
+Julia
+`````
+
+Make sure the "KM3NeT Julia Registry" is added to your local Julia registries,
+see https://git.km3net.de/common/julia-registry for more information.
+The Julia package is called ``KM3NeTTestData`` and can be installed the usual way:
+
+.. code-block:: julia
+
+    julia> import Pkg; Pkg.add("KM3NeTTestData")
+
+The package exports the ``datapath()`` function which can be used similar to the Python implementation:
+
+.. code-block:: julia
+
+    julia> using KM3NeTTestData
+
+    julia> filename = datapath("offline", "km3net_offline.root")
+    "/Users/tamasgal/.julia/packages/KM3NeTTestData/zb9oT/src/../km3net_testdata/data/offline/km3net_offline.root"
+
+Shell
+`````
+
+To use the Python module in e.g. shell scripts, it can be called directly to
 print the filepath:
 
 .. code-block:: shell
