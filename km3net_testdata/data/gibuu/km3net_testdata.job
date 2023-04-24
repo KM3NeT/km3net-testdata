@@ -1,5 +1,5 @@
 &input
-    path_to_input = '/opt/buuinput2019/'
+    path_to_input = '/opt/GiBUU/buuinput/'
     numtimesteps = 0
     eventtype = 5
     numensembles = 625
@@ -23,7 +23,7 @@
     include2pi = .false.
     include2p2hdelta = .false.
     printabsorptionxs = .true.
-    nuexp = 99
+    nuexp = 10
 /
 
 &target
