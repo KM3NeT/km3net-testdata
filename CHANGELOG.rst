@@ -3,6 +3,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.4.4 / 2023-04-24
+~~~~~~~~~~~~~~~~~~
+* Update GIBUU files
+
 0.4.3 / 2023-01-24
 ~~~~~~~~~~~~~~~~~~
 * DST sample (mainly for ``km3irf``) has been added
