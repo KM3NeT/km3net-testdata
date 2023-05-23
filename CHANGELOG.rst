@@ -3,6 +3,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.4.4 / 2023-05-23
+~~~~~~~~~~~~~~~~~~
+* PMT efficiency sample added
+
 0.4.4 / 2023-04-24
 ~~~~~~~~~~~~~~~~~~
 * Update GIBUU files
