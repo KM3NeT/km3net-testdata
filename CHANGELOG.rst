@@ -3,6 +3,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.4.5 / 2023-07-19
+~~~~~~~~~~~~~~~~~~
+* added an online file with 10 JDAQEvents and a matching DETX
+
 0.4.4 / 2023-05-23
 ~~~~~~~~~~~~~~~~~~
 * PMT efficiency sample added
