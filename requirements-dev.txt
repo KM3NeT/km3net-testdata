@@ -6,7 +6,7 @@ pillow
 pytest
 pytest-cov
 pytest-flake8
-pytest-pylint
+pylint
 pytest-watch
 sphinx
 sphinx-autoapi
