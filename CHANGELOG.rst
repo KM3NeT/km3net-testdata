@@ -3,6 +3,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.4.6 / 2023-10-04
+~~~~~~~~~~~~~~~~~~
+* added another sample file with 1000 muon cc events for reco benchmarks and tests
+
 0.4.5 / 2023-07-19
 ~~~~~~~~~~~~~~~~~~
 * added an online file with 10 JDAQEvents and a matching DETX
