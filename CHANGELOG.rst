@@ -3,6 +3,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.4.7 / 2023-10-04
+~~~~~~~~~~~~~~~~~~
+* yet another online sample file for reco benchmarks and tests
+
 0.4.6 / 2023-10-04
 ~~~~~~~~~~~~~~~~~~
 * added another sample file with 1000 muon cc events for reco benchmarks and tests
