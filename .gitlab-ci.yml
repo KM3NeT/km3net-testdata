@@ -134,7 +134,7 @@ pages:
 
 
 pypi:
-    image: docker.km3net.de/base/python:3
+    image: docker.km3net.de/base/python:3.9
     stage: release
     cache: {}
     script:
