@@ -14,10 +14,13 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 import sys
-import os
 from datetime import date
 import sphinx_rtd_theme
-from pkg_resources import get_distribution
+
+if sys.version_info < (3, 10):
+    from pkg_resources import get_distribution
+else:
+    from importlib.metadata import distribution as get_distribution
 
 # -- Project information -----------------------------------------------------
 

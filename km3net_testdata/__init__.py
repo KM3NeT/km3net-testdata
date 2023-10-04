@@ -1,22 +1,27 @@
 import atexit
-from pkg_resources import get_distribution, DistributionNotFound
+import sys
 
-import importlib_resources
-
-try:
-    from importlib_resources import as_file
-except ImportError:
-    from importlib_resources.trees import as_file
+if sys.version_info < (3, 9):
+    import importlib_resources
+    try:
+        from importlib_resources import as_file
+    except ImportError:
+        from importlib_resources.trees import as_file
+else:
+    import importlib.resources as importlib_resources
+    from importlib.resources import as_file
 
 try:
     from contextlib import ExitStack
 except ImportError:
     from contextlib2 import ExitStack
 
-try:
-    version = get_distribution(__name__).version
-except DistributionNotFound:
-    version = "unknown version"
+if sys.version_info < (3, 8):
+    from importlib_metadata import distribution
+else:
+    from importlib.metadata import distribution
+
+version = distribution(__name__).version
 __version__ = version
 
 LATEST_VERSIONS = {
