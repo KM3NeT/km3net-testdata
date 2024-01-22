@@ -3,6 +3,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.4.8 / 2024-01-22
+~~~~~~~~~~~~~~~~~~
+* another DETX sample file containing the floor == -1 bug
+
 0.4.7 / 2023-10-04
 ~~~~~~~~~~~~~~~~~~
 * yet another online sample file for reco benchmarks and tests
