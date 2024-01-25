@@ -3,6 +3,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.4.9 / 2024-01-25
+~~~~~~~~~~~~~~~~~~
+* DATX sample added
+
 0.4.8 / 2024-01-22
 ~~~~~~~~~~~~~~~~~~
 * another DETX sample file containing the floor == -1 bug
