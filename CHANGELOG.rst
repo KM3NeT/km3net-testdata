@@ -3,6 +3,11 @@ Unreleased changes
 
 Version 0
 ---------
+0.4.10 / 2024-01-26
+~~~~~~~~~~~~~~~~~~~
+* RBR (mupage) sample added
+
+* DATX sample added
 0.4.9 / 2024-01-25
 ~~~~~~~~~~~~~~~~~~
 * DATX sample added
