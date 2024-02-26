@@ -3,6 +3,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.4.11 / 2024-02-26
+~~~~~~~~~~~~~~~~~~~
+* added CLB Swissknife acoustic sample
+
 0.4.10 / 2024-01-26
 ~~~~~~~~~~~~~~~~~~~
 * RBR (mupage) sample added
