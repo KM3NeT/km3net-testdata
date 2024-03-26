@@ -3,6 +3,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.4.12 / 2024-03-26
+~~~~~~~~~~~~~~~~~~~
+* added a DETX which contains invalid multiline comments
+
 0.4.11 / 2024-02-26
 ~~~~~~~~~~~~~~~~~~~
 * added CLB Swissknife acoustic sample
