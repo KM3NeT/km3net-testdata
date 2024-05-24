@@ -3,6 +3,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.4.13 / 2024-05-24
+~~~~~~~~~~~~~~~~~~~
+* HDF5 sample of a km3astro output file
+
 0.4.12 / 2024-03-26
 ~~~~~~~~~~~~~~~~~~~
 * added a DETX which contains invalid multiline comments
