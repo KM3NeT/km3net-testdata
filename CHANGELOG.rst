@@ -3,6 +3,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.4.14 / 2024-07-03
+~~~~~~~~~~~~~~~~~~~
+* orientations.root sample
+
 0.4.13 / 2024-05-24
 ~~~~~~~~~~~~~~~~~~~
 * HDF5 sample of a km3astro output file
