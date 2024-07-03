@@ -3,6 +3,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.4.15 / 2024-07-03
+~~~~~~~~~~~~~~~~~~~
+* another orientations.root sample
+
 0.4.14 / 2024-07-03
 ~~~~~~~~~~~~~~~~~~~
 * orientations.root sample
