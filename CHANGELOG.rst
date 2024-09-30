@@ -3,6 +3,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.4.16 / 2024-09-30
+~~~~~~~~~~~~~~~~~~~
+* added summaryslices sample
+
 0.4.15 / 2024-07-03
 ~~~~~~~~~~~~~~~~~~~
 * another orientations.root sample
