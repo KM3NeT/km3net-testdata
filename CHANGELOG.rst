@@ -3,6 +3,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.4.17 / 2024-11-07
+~~~~~~~~~~~~~~~~~~~
+* added PMT sample
+
 0.4.16 / 2024-09-30
 ~~~~~~~~~~~~~~~~~~~
 * added summaryslices sample
