@@ -3,6 +3,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.4.18 / 2024-12-10
+~~~~~~~~~~~~~~~~~~~
+* added oscillations open data
+
 0.4.17 / 2024-11-07
 ~~~~~~~~~~~~~~~~~~~
 * added PMT sample
