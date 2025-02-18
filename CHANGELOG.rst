@@ -3,6 +3,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.4.19 / 2025-02-18
+~~~~~~~~~~~~~~~~~~~
+* added v0.4 of oscillations open data
+
 0.4.18 / 2024-12-10
 ~~~~~~~~~~~~~~~~~~~
 * added oscillations open data
