@@ -3,6 +3,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.4.20 / 2025-02-26
+~~~~~~~~~~~~~~~~~~~
+* version bump to catch up with the Julia version
+
 0.4.19 / 2025-02-18
 ~~~~~~~~~~~~~~~~~~~
 * added v0.4 of oscillations open data
