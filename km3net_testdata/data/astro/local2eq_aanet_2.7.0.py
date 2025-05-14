@@ -16,7 +16,13 @@ def main():
     d = ROOT.Det(data_path("detx/KM3NeT_00000133_20221025.detx"))
 
     outfile = open("local2eq_aanet_2.7.0.csv", "w")
-    outfile.write("dx,dy,dz,phi,theta,azimuth,elevation,utm_easting,utm_northing,utm_z,utm_zone,utm_reference_elipsoid,det_latitude,det_longitude,meridian_convergence,year,month,day,hour,min,sec,eq_ra,eq_dec,y2000\n")
+    outfile.write("dx,dy,dz,")
+    outfile.write("phi,theta,azimuth,zenith,")
+    outfile.write("utm_easting,utm_northing,utm_z,utm_zone,utm_reference_elipsoid,")
+    outfile.write("det_latitude,det_longitude,meridian_convergence,")
+    outfile.write("year,month,day,hour,min,sec,")
+    outfile.write("eq_ra,eq_dec,gal_lon,gal_lat,")
+    outfile.write("y2000\n")
 
     month = 1
     day = 1
@@ -31,14 +37,15 @@ def main():
                 for t in times:
                     timestamp = ROOT.TTimeStamp(int(starttime+t))
                     coords = EquatorialCoords(d, v, timestamp, j2000)
+                    gal = ROOT.sla.eqgal(coords.ra(), coords.dec())
 
                     outfile.write(f"{v.x},{v.y},{v.z},")
-                    outfile.write(f"{v.phi()},{v.theta()},")
-                    outfile.write(f"{v.phi()},{v.theta()},")
+                    outfile.write(f"{v.phi()},{v.theta()},{(-v).phi()},{(-v).theta()},")
                     outfile.write(f"{d.utm_ref_easting},{d.utm_ref_northing},{d.utm_ref_z},{d.utm_zone},{d.utm_reference_elipsoid},")
                     outfile.write(f"{d.latitude},{d.longitude},{d.meridian_convergence_angle},")
                     outfile.write(f"{year},{month},{day},{hour},{min},{sec},")
-                    outfile.write(f"{coords.ra()},{coords.dec()},{j2000}\n")
+                    outfile.write(f"{coords.ra()},{coords.dec()},{gal.DL},{gal.DB},")
+                    outfile.write(f"{j2000}\n")
 
     outfile.close()
 
