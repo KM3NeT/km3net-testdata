@@ -3,6 +3,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.4.24 / 2025-05-26
+~~~~~~~~~~~~~~~~~~~
+* added aanet astronomy coordinate benchmark
+
 0.4.23 / 2025-04-01
 ~~~~~~~~~~~~~~~~~~~
 * added v0.5 of oscillation open data
