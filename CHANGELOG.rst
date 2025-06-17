@@ -3,6 +3,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.4.25 / 2025-06-17
+~~~~~~~~~~~~~~~~~~~
+* new dst sample
+
 0.4.24 / 2025-05-26
 ~~~~~~~~~~~~~~~~~~~
 * added aanet astronomy coordinate benchmark
