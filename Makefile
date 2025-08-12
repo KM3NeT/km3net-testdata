@@ -17,10 +17,14 @@ clean:
 	python3 setup.py clean --all
 	rm -rf venv
 
-test: 
-	py.test --junitxml=./reports/junit.xml -o junit_suite_name=$(PKGNAME) tests
+test-python: 
+	py.test --junitxml=./reports/junit.xml -o junit_suite_name=$(PKGNAME) test
 
-test-cov:
+test-julia:
+	julia --project=. -e 'using Pkg; Pkg.instantiate(); Pkg.resolve()'
+	julia --project=. -e 'using Pkg; Pkg.test()'
+
+test-python-cov:
 	py.test --cov ./$(PKGNAME) --cov-report term-missing --cov-report xml:reports/coverage.xml --cov-report html:reports/coverage tests
 
 test-loop: 
@@ -47,4 +51,4 @@ black-check:
 		black --check doc/conf.py
 		black --check setup.py
 
-.PHONY: all clean install install-dev venv test test-cov test-loop dependencies dependencies-dev
+.PHONY: all clean install install-dev venv test-python test-julia test-python-cov test-loop dependencies dependencies-dev
