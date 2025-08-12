@@ -3,6 +3,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.4.26 / 2025-08-12
+~~~~~~~~~~~~~~~~~~~
+* detector_geometry/ files with tripod/hydrophone/etc. added
+
 0.4.25 / 2025-06-17
 ~~~~~~~~~~~~~~~~~~~
 * new dst sample
