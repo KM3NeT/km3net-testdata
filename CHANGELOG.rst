@@ -3,6 +3,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.4.27 / 2025-10-23
+~~~~~~~~~~~~~~~~~~~
+* added an online file with 13 DAQ events and matching summaryslices
+
 0.4.26 / 2025-08-12
 ~~~~~~~~~~~~~~~~~~~
 * detector_geometry/ files with tripod/hydrophone/etc. added
