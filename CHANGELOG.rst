@@ -3,6 +3,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.4.28 / 2025-12-09
+~~~~~~~~~~~~~~~~~~~
+* added an acoustics event sample (JAcousticsEventBuilder ROOT output)
+
 0.4.27 / 2025-10-23
 ~~~~~~~~~~~~~~~~~~~
 * added an online file with 13 DAQ events and matching summaryslices
