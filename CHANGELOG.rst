@@ -3,6 +3,12 @@ Unreleased changes
 
 Version 0
 ---------
+0.4.29 / 2026-02-05
+~~~~~~~~~~~~~~~~~~~
+* removed astro/local2eq_aanet_2.7.0.csv and replaced with
+  local2eq_aanet/2.7.1.csv which contains a corrected set
+  of benchmark data
+
 0.4.28 / 2025-12-09
 ~~~~~~~~~~~~~~~~~~~
 * added an acoustics event sample (JAcousticsEventBuilder ROOT output)
