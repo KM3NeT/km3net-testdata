@@ -1,7 +1,7 @@
-# benchmark table for ARCA
+# benchmark table for ORCA
 # date and tracks are from http://antares-wiki.in2p3.fr/doku.php?id=benchmarks_astro
 # but 200X->202X 
-# values were obtained with aanet and km3net_testdata/data/detx/KM3NeT_-00000001_20171212.detx
+# values were obtained with aanet and km3net-testdata/km3net_testdata/data/detx/D_ORCA006_t.A02181836.p.A02181837.r.A02182001.detx
 # units: [deg]
 # theta, phi: track in horiz. UTM
 # DEC/RA: source in equatorial coordinates
