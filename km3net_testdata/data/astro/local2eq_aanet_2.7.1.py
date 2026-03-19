@@ -23,7 +23,7 @@ def main():
     outfile.write("det_latitude,det_longitude,meridian_convergence,")
     outfile.write("year,month,day,hour,min,sec,")
     outfile.write("eq_ra,eq_dec,gal_lon,gal_lat,")
-    outfile.write("correct_to_j2000\n")
+    outfile.write("j2000\n")
 
     t_year = ctypes.c_uint()
     t_month = ctypes.c_uint()
@@ -41,13 +41,13 @@ def main():
     for v in [Vec(0, 0, -1), Vec(0, 1, 0), Vec(1, 0, 0), Vec(-1.2, 3.4, -5.6).normalize()]:
         for year in [2000, 2010, 2025]:
             starttime = datetime.datetime(year, month, day, hour, min, sec).replace(tzinfo=datetime.timezone.utc).timestamp()
-            for correct_to_j2000 in (True, False):
+            for j2000 in (True, False):
                 for t in times:
                     timestamp = ROOT.TTimeStamp(int(starttime+t))
                     timestamp.GetDate(True, 0, t_year, t_month, t_day)
                     timestamp.GetTime(True, 0, t_hour, t_minute, t_sec)
 
-                    coords = EquatorialCoords(d, v, timestamp, correct_to_j2000)
+                    coords = EquatorialCoords(d, v, timestamp, j2000)
                     gal = ROOT.sla.eqgal(coords.ra(), coords.dec())
 
                     outfile.write(f"{v.x},{v.y},{v.z},")
@@ -58,7 +58,7 @@ def main():
                     # we wrap the right ascension (to [0, 2pi)) due to a tiny bug in aanet that was fixed in
                     # https://git.km3net.de/common/aanet/-/merge_requests/161
                     outfile.write(f"{ROOT.wrap(coords.ra())},{coords.dec()},{gal.DL},{gal.DB},")
-                    outfile.write(f"{correct_to_j2000}\n")
+                    outfile.write(f"{j2000}\n")
 
     outfile.close()
 
