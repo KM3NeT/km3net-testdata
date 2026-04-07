@@ -3,6 +3,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.4.30 / 2026-04-07
+~~~~~~~~~~~~~~~~~~~
+* added acoustics/mechanical_model.root
+
 0.4.29 / 2026-02-05
 ~~~~~~~~~~~~~~~~~~~
 * removed astro/local2eq_aanet_2.7.0.csv and replaced with
