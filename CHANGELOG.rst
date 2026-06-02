@@ -3,6 +3,10 @@ Unreleased changes
 
 Version 0
 ---------
+0.4.31 / 2026-05-03
+~~~~~~~~~~~~~~~~~~~
+* added L1 and SN timeslices samples to online/
+
 0.4.30 / 2026-04-07
 ~~~~~~~~~~~~~~~~~~~
 * added acoustics/mechanical_model.root
